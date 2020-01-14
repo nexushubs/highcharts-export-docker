@@ -14,6 +14,8 @@ ADD fonts/OpenSans-LightItalic.ttf OpenSans-LightItalic.ttf
 ADD fonts/OpenSans-BoldItalic.ttf OpenSans-BoldItalic.ttf
 ADD fonts/OpenSans-SemiboldItalic.ttf OpenSans-SemiboldItalic.ttf
 ADD fonts/OpenSans-ExtraBoldItalic.ttf OpenSans-ExtraBoldItalic.ttf
+ADD fonts/SourceHanSansCN-Regular.ttf SourceHanSansCN-Regular.ttf
+RUN fc-cache -fv
 WORKDIR /
 
 EXPOSE 8080
